@@ -1,0 +1,30 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.square_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square {
+    height: 10em;
+    width: 10em;
+}
+
+
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}

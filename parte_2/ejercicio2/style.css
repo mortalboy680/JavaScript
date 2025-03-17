@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 10px;
+    height: 20em;
+    width: 50em;
+}
+
+textarea {
+    height: 80%;
+    width: 100%;
+    resize: none;
+    border-radius: 10px;
+}
+
+#contadorArea {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}

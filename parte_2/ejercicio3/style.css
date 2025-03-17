@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+.title {
+    background-color: #F5A9BC;
+}
+
+.subTitle {
+    background-color: #F5A9D0;
+}
+
+.notes {
+    height: 100%;
+    width: 100%;
+    background-color: #F6CED8;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.students {
+    height: 100%;
+    width: 100%;
+    background-color: #F8E0E6;
+}
+
+.studentsAll {
+    height: 100%;
+    width: 50%;
+}
+
+.student {
+    height: 100%;
+    width: 10em;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+.student:hover {
+    height: 100%;
+    width: 10em;
+    background-color: rgb(92, 92, 92);
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
